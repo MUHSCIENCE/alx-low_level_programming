@@ -8,7 +8,7 @@ int main(void)
 {
 	char lowercase = 'z';
 	/*print all lowercase alphabets in reverse */
-	while (lowercase <= 'a')
+	while (lowercase >= 'a')
 	{
 		putchar(lowercase);
 		lowercase--;
