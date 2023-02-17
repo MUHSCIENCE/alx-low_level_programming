@@ -1,13 +1,17 @@
 #include <stdio.h>
 
-int main (void)
+/**
+ * main - Entry point
+ * Return: 0 (success)
+ */
+int main ()
 {
-	char letter='a';
-	while (letter>='z')
+	char letter = 'a';
+	while(letter<= 'z')
 	{
 		putchar(letter);
 		letter++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
