@@ -4,10 +4,12 @@
  * main - Entry point
  * Return: 0 (success)
  */
-int main ()
+
+int main(void)
 {
 	char letter = 'a';
-	while(letter<= 'z')
+
+	while (letter <= 'z')
 	{
 		putchar(letter);
 		letter++;
