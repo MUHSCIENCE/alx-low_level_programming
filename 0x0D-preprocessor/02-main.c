@@ -1,8 +1,11 @@
+#include <stdlib.h>
 #include <stdio.h>
-
-#define print_name(x) printf("%s\n", x)
+/**
+*main - prints filename
+*Return: returns 0
+*/
 int main(void)
 {
-	print_name("2.main.c");
+	printf("%s\n", _FILE_);
 	return (0);
 }
